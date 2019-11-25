@@ -1,0 +1,43 @@
+body{
+	background: 
+	url("imgs/fond2.png");
+	background-repeat:no-repeat;
+	background-position:50% 0%;
+	background-size: cover;
+}
+
+#lelogo{
+	margin-top: 50vh;
+	transform: translateY(-70%);
+	text-align: center;
+	position: absolute;
+}
+
+h1{
+	font-family: 'Leckerli One', cursive;
+	text-align: center;
+	color: white;
+}
+
+#logo{
+	height: 50%;
+	width: 50%;
+	position: block;
+}
+
+#bouton{
+	font-family: 'Leckerli One', cursive;
+	font-size: 20px;
+}
+
+#lebouton{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Leckerli One', cursive;
+	color: white;
+	position: relative;
+	padding-top: 30%;
+}

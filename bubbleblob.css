@@ -1,0 +1,69 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0px solid black;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#game-over {
+  display: none;
+  padding-top: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.restart{
+  position: absolute;
+  text-align: center;
+}
+
+.texte{
+  text-align: center;
+  top: 0;
+  font-family: 'Leckerli One', cursive;
+  color: purple;
+  font-size: 20px;
+}
+
+#restart{
+  color: white;
+  left: 45%;
+}
+
+#imagefloue{
+  text-align: center;
+}
+
+#floue{
+  position: relative;
+  text-align: center;
+  top: 20px;
+  height: 500px;
+}
